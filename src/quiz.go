@@ -1,4 +1,4 @@
-/*package main
+package main
 
 
 import (
@@ -168,4 +168,3 @@ func parseCsv(filepath string) ([]Quiz, error) {
 	}
 	return output, nil
 }
-*/
