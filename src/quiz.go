@@ -1,4 +1,5 @@
-package main
+/*package main
+
 
 import (
 	"bufio"
@@ -81,10 +82,11 @@ func main() {
 	//creating a channel to communicate
 	communicate := make(chan string)
 	//TODO:implement context
-	/*
-		ctx, cancel := context.WithTimeout(context.Background(), time.Duration(totaltime)*time.Second)
-		defer cancel() //this is to make sure all paths cancel the context to avoid context leak
-	*/
+	//TODO:implement random order 
+	
+	//	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(totaltime)*time.Second)
+	//	defer cancel() //this is to make sure all paths cancel the context to avoid context leak
+	
 
 	wg.Add(1)
 	timeout := time.After(time.Duration(totaltime) * time.Minute)
@@ -166,3 +168,4 @@ func parseCsv(filepath string) ([]Quiz, error) {
 	}
 	return output, nil
 }
+*/
