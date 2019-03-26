@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-var args = []string{"hi", "there", "buddy", "5", "hi", "there", "buddy", "boy", "5", "6", "7", "8", "9", "hi", "there", "buddy", "boy", "5", "6", "7", "8", "9"}
+var args = []string{"hi", "there", "buddy", "5", "hi", "there", "buddy", "5", "6", "7", "8", "9"}
 
 func concat(args []string) {
 	var r, sep string
